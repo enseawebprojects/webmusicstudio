@@ -48,7 +48,7 @@
 			});
 
 			function redirect() {
-				$("#resultat").html("<meta http-equiv='refresh' content='0;/accueil.php'>");
+				$("#resultat").html("<meta http-equiv='refresh' content='0;url=/accueil.php'>Vous allez être redirigé si cela ne fonctionne pas cliquez <a href='/accueil.php'>ici</a>.");
 			}
 
 		</script>

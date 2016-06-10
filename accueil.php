@@ -30,7 +30,7 @@
 
 			<?php
 				} else {
-					echo "<meta http-equiv='refresh' content='0;/index.php'>";
+					echo "<meta http-equiv='refresh' content='0;/index.php'>Vous allez être redirigé si cela ne fonctionne pas cliquez <a href='/'>ici</a>";
 				}
 			?>
 		</section>
