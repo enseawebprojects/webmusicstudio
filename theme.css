@@ -1,0 +1,73 @@
+@font-face {
+	font-family: RadioStars;
+	src: url(font/RadioStars.ttf);
+}
+
+html {
+	height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #333;
+	color: white;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+	position: relative;
+	font-size: 16px;
+	line-height: 18px;
+}
+
+header {
+	text-align: center;
+	padding: 30px 0px;
+}
+
+section {
+	padding: 30px;
+}
+
+footer {
+	text-align: center;
+	background-color: black;
+	margin: 0;
+	padding: 30px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+#formConnexion {
+	text-align: center;
+}
+
+#formConnexion input {
+	padding: 5px;
+	border-radius: 10px;
+}
+
+button {
+	font-size: 17px;
+	line-height: 22px;
+	background-color: rgb(255,77,0);
+	font-family: RadioStars;
+	padding: 15px;
+	display: inline-block;
+	border: none;
+	color: white;
+}
+
+button:hover {
+	background-color: rgb(155,51,6);
+}
+
+h1 {
+        font-family: RadioStars;
+        font-size: 70px;
+        line-height: 72px;
+	margin: 10px;
+} 
+
