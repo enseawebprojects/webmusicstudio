@@ -12,7 +12,7 @@
 
 		<section>
 			<?php include_once('/mysql.php'); ?>
-			<div id="formConnexion">
+			<div class="form">
 				Login :<br>
 				<input type="text" name="login" id="login" ><br><br>
 				Mot De Passe :<br>

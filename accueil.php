@@ -22,9 +22,9 @@
 				mais aussi utiliser le chat vocal pour travailler ou lancer un live sur la radio. Enfin vous pouvez aussi gérer les podcasts à diffuser
 				sur orb-replay.fr</p>
 				<p style="margin-top: 50px; text-align: center;">
-					<button>Gérer la diffusion automatique</button><br><br>
-					<button>Aller sur le chat vocal</button><br><br>
-					<button>Gérer les podcasts</button><br><br>
+					<a href="/pages/manage-broadcast.php"><button>Gérer la diffusion automatique</button></a><br><br>
+					<a href="/pages/chat.php"><button>Aller sur le chat vocal</button></a><br><br>
+					<a href="/pages/podcasts.php"><button>Gérer les podcasts</button></a><br><br>
 				</p>
 			</div>
 
