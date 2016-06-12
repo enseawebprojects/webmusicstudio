@@ -47,6 +47,7 @@
 
 		<script>
 			function changePage(url) {
+				console.log(url);
 				$("#content").hide(1000, function() {
 					$("#content").load(url, function() {
 						$("#content").show(1000);

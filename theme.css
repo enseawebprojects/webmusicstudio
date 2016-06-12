@@ -66,6 +66,22 @@ button:hover {
 	background-color: rgb(155,51,6);
 }
 
+.modify {
+	background-color: #009900;
+}
+
+.modify:hover {
+	background-color: #005500;
+}
+
+.delete {
+	background-color: #ff0000;
+}
+
+.delete:hover {
+	background-color: #990000;
+}
+
 #content {
 	//transition: all 2s;
 	//-webkit-transition: all 2s;

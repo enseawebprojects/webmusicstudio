@@ -50,7 +50,7 @@
 		time: $("#time").val(), chroniqueur: $("#chroniqueur").val(), description: $("#description").val() }, function(data) {
 			if(data == 'ok') {
 				$("#content").hide(1000, function() {
-					$("#content").html('<div style="text-align: center">L\'émission '+$("#titre").val()+' a été rajoutée à la base de données.<br>Choississez une nouvelle action.<br></div>');
+					$("#content").html('<div style="text-align: center">L\'émission '+$("#titre").val()+' a été rajouté à la base de données.<br>Choississez une nouvelle action.<br></div>');
 				});
 				$("#content").show(1000);
 			}
@@ -61,3 +61,26 @@
 		});
 	});
 </script>
+style="text-align: left;"><input type="date" name="dateOrb" id="dateOrb" value="<?= date('Y-m-d') ?>"/></td>
+                </tr>
+                <tr>
+                        <td style="text-align: right;">Durée : </td>
+                        <td style="text-align: left;"><input type="title" name="time" id="time" value="00:00:00"/></td>
+                </tr>
+                <tr>
+                        <td style="text-align: right;">Chroniqueurs : </td>
+                        <td style="text-align: left;"><input type="title" name="chroniqueur" id="chroniqueur" style="width: 300px;"/></td>
+                </tr>
+		<tr>
+			<td style="text-align: right; vertical-align: top;">Description : </td>
+			<td style="text-align: left;"><textarea name="description" id="description" cols="50" rows="10"></textarea></td>
+		</tr>
+		<tr>
+			<td style="text-align: right; vertical-align: top;">Upload du fichier : </td>
+			<td style="text-align: left;">
+			<input type="file" id="fileupload" name="files[]" data-url="server/php" multiple>
+			</td>
+		</tr>
+	</table>
+
+	<button id="sendForm">Ajouter L'émission</button>
